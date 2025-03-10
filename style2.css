@@ -1,0 +1,38 @@
+@media only screen and (max-width: 800px) {
+    .link {
+        display: none;
+    }
+    nav button{
+        display: block;
+    }
+    .menu {
+        background-color: rgb(0, 17, 34);
+        width: 80%;
+        height: 100vh;
+        border: 1px solid cyan;
+        position: fixed;
+        top: 0;
+        right: -80%;
+        display: block;
+        transition: 2s;
+    }
+    .menu div ul li a{
+        font-size: 25px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 4px white;
+        font-weight: 500;
+    }
+    .menu div ul li {
+        margin-top: 20px;
+    }
+    
+    .menu div img {
+        width: 40px;
+        margin-top: 20px;
+    }
+    .menu div button {
+        border: none;
+    }
+    
+}
